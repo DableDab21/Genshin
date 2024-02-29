@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Книга правил Тейват</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="sidebar">
+            <h2>Оглавление</h2>
+            <ul id="toc">
+                <li><a href="#home">Главная страница</a></li>
+                <li><a href="#chapter1">Глава 1: Введение</a>
+                    <ul id="subsections" style="display: none;">
+                        <li><a href="#chapter1-section1">Подглава 1</a></li>
+                        <li><a href="#chapter1-section2">Подглава 2</a></li>
+                    </ul>
+                </li>
+                <li><a href="#chapter2">Глава 2: Основы</a></li>
+                <li><a href="#chapter3">Глава 3: Персонажи</a></li>
+                <!-- Добавьте остальные главы в соответствии с вашей книгой правил -->
+            </ul>
+        </nav>
+        <main id="main-content">
+            <article id="home">
+                <h1>Главная страница</h1>
+                <p>Текст вашей главной страницы...</p>
+            </article>
+            <article id="chapter1" style="display: none;">
+                <h1>Глава 1: Введение</h1>
+                <p>Текст вашей главы 1...</p>
+            </article>
+            <article id="chapter2" style="display: none;">
+                <h1>Глава 2: Основы</h1>
+                <p>Текст вашей главы 2...</p>
+            </article>
+            <article id="chapter3" style="display: none;">
+                <h1>Глава 3: Персонажи</h1>
+                <p>Текст вашей главы 3...</p>
+            </article>
+            <!-- Добавьте остальные главы в соответствии с вашей книгой правил -->
+        </main>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
